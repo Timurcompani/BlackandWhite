@@ -1,7 +1,4 @@
-.one ul li:hover{
-    color: yellow;
-    transition: 2s;
-}
+/*list first*/
 .one ul li:nth-child(1){
     color: red;
 }
@@ -18,22 +15,30 @@
         font-size: 40px;
         font-weight: bold;
 }
-h1::before{
+.one ul li:hover{
+    background-color: yellow;
+    transition: 2s;
+}
+
+/*title*/
+h2::before{
     content: 'Я ';
 }
-h1::after{
-    content: " Програмировать";
+h2::after{
+    content: " програмировать!";
 }
+
+/*list second*/
 .two ul li:nth-child(3n+1){
     color: red;
 }
-.two ul li:nth-child(4n+2){
+.two ul li:nth-child(4n+1){
     color: blue;
 }
 .two ul li:hover{
     color: green;
     font-size: 40px;
-    transition: 1s;
+    transition: .1s;
 }
 
 
