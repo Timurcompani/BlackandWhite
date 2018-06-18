@@ -1,92 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>BlackandWhite</title>
-    <link rel="stylesheet" type="text/css" href="css/blackandwhite.css">
-    <script src="js/blackandwhite.js"></script>
+    <link rel="stylesheet" href="css/blackandwhite.css">
+
 </head>
 <body>
-<!--header-->
+<div class="container">
+    <!--header-->
     <header>
         <!--top line-->
-        <div>
-            <div>
-                <h1>BlackandWhite</h1>
+        <div class="top_line">
+            <div class="logo">
+                <p>Black<span>and</span>White</p>
                 <p>Lorem ipsum dolor sit amet</p>
+
             </div>
             <form>
-                <input>
+                <input type="text">
                 <button>Search</button>
             </form>
         </div>
         <!--background image-->
-        <div>
-            <img src="">
+        <div class="bottom-line">
+            <img src="img/Screenshot_9.png">
             <!--bottom line-->
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
+            <div class="line">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumqu</p>
             </div>
         </div>
+        <!--main-->
+        <nav>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Work</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+        </nav>
 
     </header>
-<!--main-->
     <main>
-    <!--menu-->
-        <nav>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Work</a>
-        <a href="">Blog</a>
-        <a href="">Contact</a>
-    </nav>
-    <!--content-->
-        <section>
-        <h2>What we do</h2>
-        <p>Lorem ipsum dolor sit amet, <a href=""> consectetur adipisicing elit.</a> Amet debitis eum iste itaque laboriosam laudantium provident quisquam! Accusamus assumenda corporis laboriosam sint unde veritatis voluptatum? Distinctio eius odit placeat. Veniam?</p>
-        <p>— Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
-    </section>
-    <!--images-->
-        <section>
-        <h3>Images</h3>
-        <ul>
-            <li><img src=""></li>
-            <li><img src=""></li>
-            <li><img src=""></li>
-            <li><img src=""></li>
-        </ul>
-    </section>
-    <!--lists-->
-        <section>
-        <h3>Lists and Descriptions</h3>
-        <div>
-            <ui>
-                <li>Sed ut perspiciatis unde omnis iste natus Lorem ipsum dolor sit</li>
-                <li>Sed ut perspiciatis unde omnis iste natus Lorem ipsum dolor sit</li>
-                <li>Sed ut perspiciatis unde omnis iste natus Lorem ipsum </li>
-                <li>Sed ut perspiciatis unde omnis iste natus Lorem</li>
-            </ui>
-        </div>
-        <div>
-            <ol>
-                <li>Sed ut perspiciatis unde omnis iste natus 2. Lorem ipsum dol</li>
-                <li>perspiciatis unde omnis iste natus 2. Lorem ipsum dol</li>
-                <li>ut perspiciatis unde omnis iste natus 2. Lorem ipsum dol</li>
-                <li>unde omnis iste natus 2. Lorem ipsum dol</li>
-            </ol>
-        </div>
-        <div>
+        <!--content-->
+        <section class="content">
+            <h2><span>W</span>hat we do</h2>
+            <p>Lorem ipsum dolor sit amet, <a href="#"> consectetur adipisicing elit.</a> Amet debitis eum iste itaque laboriosam laudantium provident quisquam! Accusamus assumenda corporis laboriosam sint unde veritatis voluptatum? Distinctio eius odit placeat. Veniam? <span>Lorem ipsum dolor</span> sit amet, consectetur adipisicing elit. Ab ad alias harum illo nihil praesentium ratione soluta? Autem corporis earum eveniet laudantium qui! Ab aliquam aspernatur labore minima odio quam.</p>
+            <p>— Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
+        </section>
+        <!--images-->
+        <section class="foto">
+            <h3 class="title"><span>I</span>mages</h3>
             <ul>
-                <li>Sed ut perspiciatis unde omnis iste natus Lorem ipsum dolor sit</li>
-                <li>Sed ut perspiciatis unde omnis iste natus Lorem ipsum dolor sit</li>
-                <li>Sed ut perspiciatis unde omnis iste natus Lorem ipsum </li>
-                <li>Sed ut perspiciatis unde omnis iste natus Lorem</li>
+                <li><img src="img/foto1.jpg" alt="фото Нью Йорка"></li>
+                <li><img src="img/foto2.jpg" alt="фото Нью Йорка"></li>
+                <li><img src="img/foto3.jpg" alt="фото Нью Йорка"></li>
+                <li><img src="img/foto4.jpg" alt="фото Нью Йорка"></li>
             </ul>
-        </div>
-    </section>
-    <!--table-->
-        <section>
-            <h3>Table</h3>
+        </section>
+        <!--lists-->
+        <section class="list">
+            <h3 class="title"><span>L</span>ists and Descriptions</h3>
+            <div>
+                <ul>
+                    <li>Sed ut perspiciatis unde omnis iste natus</li>
+                    <li>Sed ut perspiciatis unde omnis iste natu</li>
+                    <li>Sed ut perspiciatis unde omnis iste nat</li>
+                    <li>Sed ut perspiciatis unde omnis iste </li>
+                </ul>
+            </div>
+            <div>
+                <ol>
+                    <li>Sed ut perspiciatis unde omnis iste natus</li>
+                    <li>perspiciatis unde omnis iste natus 2. </li>
+                    <li>ut perspiciatis unde omnis iste natus</li>
+                    <li>unde omnis iste natus 2. Lorem </li>
+                </ol>
+            </div>
+            <div>
+                <p><span>Sed ut perspiciatis unde omnis iste natus </span>
+                    <span>Lorem ipsum dolor sit Officia praese</span>
+                    <span>ntium soluta voluptatem! Ea fuga in nesciunt</span>
+                    <span> praesentium quos repudiandae verita</span>
+                </p>
+            </div>
+        </section>
+        <!--table-->
+        <section class="table">
+            <h3 class="title">
+
+
+
+                <span>T</span>able
+
+
+
+            </h3>
             <table>
                 <tr>
                     <th>Lorem</th>
@@ -94,33 +102,71 @@
                     <th>Sed ut perspiciatis unde</th>
                     <th>Sed ut perspiciatis unde</th>
                 </tr>
-                <tr><td>At vero eos et</td><td>At vero eos et</td><td>At vero eos et</td><td>At vero eos et</td></tr>
-                <tr><td>At vero eos et</td><td>At vero eos et</td><td>At vero eos et</td><td>At vero eos et</td></tr>
-                <tr><td>At vero eos et</td><td>At vero eos et</td><td>At vero eos et</td><td>At vero eos et</td></tr>
-                <tr><td>At vero eos et</td><td>At vero eos et</td><td>At vero eos et</td><td>At vero eos et</td></tr>
+                <tr>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                </tr>
+                <tr>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                </tr>
+                <tr>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                </tr>
+                <tr>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                    <td>At vero eos et</td>
+                </tr>
             </table>
         </section>
-    <!--form-->
-        <section>
-            <h3>Forms</h3>
+        <!--form-->
+        <section class="wrapper-form">
+            <h3 class="title"><span>F</span>orms</h3>
             <form>
-                <label for="text">Text:</label><br>
-                <input type="text" name="text" placeholder="input type text"><br>
-                <label for="text">Select:</label><br>
-                <select>
-                    <option>Option</option>
-                </select>
-                <p><input type="checkbox" name="checkbox">Sed ut perspiciatis unde omnis</p>
-                <p><input type="radio" name="radio">Sed ut perspiciatis unde omnis</p>
-                <label>Textarea:</label>
-                <p><textarea></textarea></p>
-                <p><button>Кнопка</button>
+                <label>
+                    <span>Text:</span>
+                    <input type="text"  placeholder="input type text" class="text">
+                </label>
+                <label>
+                    <span>Select:</span>
+                    <select>
+                        <option>Option</option>
+                        <option>1</option>
+                        <option>2</option>
+                    </select>
+                </label>
+                <label class="wrapper-input">
+                    <input type="checkbox">
+                    <span>Sed ut perspiciatis unde omnis</span>
+                </label>
+                <label class="wrapper-input">
+                    <input type="radio">
+                    <span>Lorem ipsum dolor sit amet, consectetur</span>
+                </label>
+                <label>
+                    <span>Textarea:</span>
+                    <textarea class="textarea" rows="8" cols="35"></textarea>
+                </label>
+                <button>Button</button>
             </form>
         </section>
     </main>
-<!--footer-->
+    <!--footer-->
     <footer>
         <p>© Footer content <a href=""> Link footer</a></p>
     </footer>
+
+</div>
+
+<script src="js/blackandwhite.js"></script>
 </body>
 </html>

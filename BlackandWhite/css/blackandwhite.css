@@ -1,3 +1,397 @@
-body{
-    background: red;
+/*header*/
+header {
+    position: relative;
+    background-color: #000000;
 }
+
+/*top line*/
+header .top_line {
+    display: block;
+    height: 60px;
+    background-color: #171717;
+}
+header .top_line .logo p{
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #686868;
+    margin: 0;
+}
+header .top_line .logo p:nth-child(1){
+    font-family: "Niagara Solid";
+    font-size: 36px;
+    line-height: 40px;
+    color: #D4D4D4;
+}
+header .top_line .logo p span{
+    color: #979797;
+}
+header .top_line .logo p:nth-child(2){
+    font-size: 12px;
+    line-height: 20px;
+    color: #545454;
+}
+header .top_line form input {
+    border: 1px solid #4C4C4C;
+    background-color: #323232;
+    font-size: 14px;
+    font-family: Arial;
+    color: #FFFFFF;
+    line-height: 20px;
+    outline: 0;
+}
+header .top_line form button {
+    border: 1px solid #4C4C4C;
+    background-color: #323232;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 20px;
+    outline: 0;
+    cursor: pointer;
+}
+
+/*background image*/
+header .bottom-line img{
+    width: 100%;
+}
+
+/*bottom line*/
+header .bottom-line .line {
+    width: 100%;
+    position: absolute;
+    bottom: 33px;
+    background-color: rgba(0,0,0,0.5);
+}
+header .bottom-line .line p {
+    font-family: Arial;
+    font-size: 12px;
+    color: #DEDEDE;
+    margin: 0;
+    padding: 14px 20px;
+}
+
+@media (min-width: 1000px) {
+    .container{
+       /* width: 1000px;*/
+        margin: 0 auto;
+    }
+
+
+    header .top_line .logo{
+        float: left;
+    }
+    header .top_line form{
+        float: right;
+        //margin-top: 10px;
+        position: relative;
+        top: 18px;
+    }
+    header .top_line form input{
+        width: 355px;
+    }
+    header .top_line form button{
+        margin: 0 0 0 10px;
+    }
+
+}
+
+/*menu*/
+.container header nav {
+    background-color: #000000;
+    font-family: Arial;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    link: #C5C5C5;
+    line-height: 20px;
+}
+.container header nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 25px;
+    display: inline-block;
+    border-right: 1px solid #272727;
+}
+
+/*content*/
+.container main {
+    border: 1px solid #C0C0C0;
+    padding-left: 10px;
+}
+.container main .content {
+    margin-top: 50px;
+}
+.container main .list {
+    position: relative;
+}
+.container main h3{
+    margin-left: 15px;
+}
+.container main h3 span {
+    color: #000000;
+}
+/*titles*/
+
+h3.title{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #838383;
+}
+
+    /*styles for content*/
+.content h2 {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+    color: #838383;
+    margin: 15px 0;
+}
+.content h2 span {
+    color: #000000;
+}
+.content p:nth-child(1) {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #838383;
+    margin-top: -2px;
+    margin-bottom: 0;
+}
+.content p span {
+    font-style: italic;
+    font-weight: 500;
+}
+.content p:nth-child(3) {
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #838383;
+    margin: -5px 0 0 30px;
+}
+
+/*styles for headlines in main*/
+
+
+
+/*styles for pictures*/
+.foto ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.foto ul li {
+    display: inline;
+    margin-right: 15px;
+}
+.foto ul li:nth-child(1){
+    margin-left: 15px;
+}
+.foto img {
+    width: 200px;
+    height: 140px;
+    border: 10px solid #E2E2E2;
+}
+
+/*styles for lists*/
+.list ul {
+    top: 0px;
+    left: 5px;
+}
+.list ol {
+    position: absolute;
+    top: 20px;
+    left: 320px;
+}
+.list p span{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #838383;
+}
+.list p span:nth-child(1){
+    position: absolute;
+    top: 36px;
+    left: 660px;
+    color: #000000;
+}
+.list p span:nth-child(2){
+    position: absolute;
+    top: 55px;
+    left: 700px;
+}
+.list p span:nth-child(3){
+    position: absolute;
+    top: 75px;
+    left: 660px;
+    color: #000000;
+}
+.list p span:nth-child(4){
+    position: absolute;
+    top: 93px;
+    left: 700px;
+}
+
+/*styles for the table*/
+.table h3.title {
+    margin-left: 500px;
+}
+.table table {
+    width: 100%;
+    border-collapse: collapse ;
+    border: 1px solid grey;
+    text-align: left;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+}
+.table table th {
+    border: 1px solid #D5D5D5;
+    padding: 6px;
+    font-weight: 700;
+}
+.table table th:nth-child(1){
+    width: 135px;
+}
+.table table td {
+    border: 1px solid #D5D5D5;
+    padding: 6px;
+    font-weight: 500;
+}
+
+/*styles for the form*/
+.wrapper-form form label span{
+    display: block;
+    margin-top: 10px;
+}
+.wrapper-form form .text{
+    width: 200px;
+    height: 25px;
+}
+.wrapper-form form select{
+    display: block;
+    width: 205px;
+    height: 32px;
+}
+.wrapper-form form button {
+    display: block;
+    background: #202020;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 34px;
+    margin: 10px 0 15px;
+}
+.wrapper-form form .wrapper-input {
+    display: block;
+    margin-top: 10px;
+}
+.wrapper-form form .wrapper-input span {
+    display: inline;
+}
+.wrapper-form form .wrapper-input input[type=text],
+.wrapper-form form .wrapper-input input[type=radio]{
+
+}
+
+
+
+
+
+
+/*
+.form form p:nth-child(2){
+    margin: 0 0 10px 0;
+}
+.form form p:nth-child(4){
+    margin: 0;
+}
+.form form .text{
+    width: 225px;
+    height: 25px;
+}
+.form form .option{
+    width: 227px;
+    height: 33px;
+}
+.form form p:nth-child(8){
+    margin: 0;
+}
+.form button {
+    background: #202020;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 34px;
+}
+*/
+
+/*styles for the footer*/
+footer a {
+    color: #0075D0;
+}
+
+
+
+
+
+
+/*header .top_line form input:focus{
+    color: blue;
+}*/
+/*
+header .top_line form button::before{
+    content: 'oi';
+}
+header .top_line form button::after {
+    content: 'ghj';
+}
+header .top_line form button:hover {
+    color: red;
+    transition: 1s;
+}
+*/
+/*header .top_line .logo p:nth-child(4n+2){*/
+/*color: green;*/
+/*}*/
+/*header .top_line .logo p:nth-last-child(1){*/
+/*color: red;*/
+/*}*/
+/*.logo {
+    color: #F0F0F0;
+    margin: 5px 5px 5px 150px;
+}
+
+.logo p {
+    margin: 0;
+    padding: 0;
+}
+
+.logo h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.field {
+    margin: -45px 50px 5px 720px ;
+    padding: 0px;
+}
+
+.field_inp {
+    background-color: #323232;
+}
+
+.search {
+    background-color: #000000;
+    color: #FFFFFF;
+}*/
