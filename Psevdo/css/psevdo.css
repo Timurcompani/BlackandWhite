@@ -1,4 +1,10 @@
 /*list first*/
+.one{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    border: 1px solid red;
+}
 .one ul li:nth-child(1){
     color: red;
 }
@@ -19,7 +25,13 @@
     background-color: yellow;
     transition: 2s;
 }
-
+.two{
+    border: 1px solid blue;
+    width: 250px;
+    position: inherit;
+    top: 100px;
+    left: 450px;
+}
 /*title*/
 h2::before{
     content: 'Я ';
